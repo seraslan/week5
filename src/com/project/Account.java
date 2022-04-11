@@ -5,6 +5,14 @@ public class Account {
     private Customer customer;
     private float balance = 0;
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
     public Account(int id, Customer customer, float balance) {
         this.id = id;
         this.customer = customer;
